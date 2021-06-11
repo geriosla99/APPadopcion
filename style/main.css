@@ -1,0 +1,21 @@
+body{
+    background: #FEC7D7;;
+}
+.btn{
+    background: #0E172C;
+    color: #fff
+    
+}
+.Link{
+    text-decoration: none;
+    color: #fff;
+}
+.Link:hover{
+    color: #fff;
+}
+.boton_{
+    border-radius: 5vw;
+}
+.tamaño{
+    width: 4vw;
+}
