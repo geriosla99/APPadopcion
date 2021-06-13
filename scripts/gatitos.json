@@ -1,28 +1,28 @@
 [
     {
-        "nombre":"Chester",
-        "raza":"Golden Retriver",
-        "color":"dorado",
-        "edad":"5 meses",
+        "nombre":"Matilde",
+        "raza":"British Shorthair",
+        "color":"gris",
+        "edad":"7 meses",
         "personalidad":"Muy cariñoso con los niños"
     },
     {
-        "nombre":"Candy",
-        "raza":"Snawser",
+        "nombre":"Pelusa",
+        "raza":"Birmano",
         "color":"Plateado",
         "edad":"3 años",
         "personalidad":"Es inteligente y muy juiciosa"
     },
     {
-        "nombre":"Rocky",
-        "raza":"Poodle",
+        "nombre":"Kity",
+        "raza":"Bombay",
         "color":"Blanco",
         "edad":"2años",
         "personalidad":"Muy cariñoso"
     },
     {
-        "nombre":"Nene",
-        "raza":"Mezclado",
+        "nombre":"Bombon",
+        "raza":"Gato Americano",
         "color":"Café",
         "edad": "6 meses",
         "personalidad":"Es hiperactivo y muy juguetón"
