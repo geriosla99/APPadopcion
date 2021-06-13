@@ -3,8 +3,8 @@ body{
 }
 .btn{
     background: #0E172C;
-    color: #fff
-    
+    color: #fff  ;
+    border-radius: 5vw;
 }
 .Link{
     text-decoration: none;
@@ -13,9 +13,91 @@ body{
 .Link:hover{
     color: #fff;
 }
-.boton_{
-    border-radius: 5vw;
-}
+
 .tamaño{
-    width: 4vw;
+    width: 10vw;
+    background-color: #85D1CE;
+    border-radius: 100%;
+    padding: 0.5vw;
+    float: left;
+}
+.boton_1{
+    width: 30vw;
+    justify-content: center;
+    align-items: center;
+    margin: 3vw;
+}
+.boton_1:hover{
+    color: #fff;
+}
+.text{
+    float: right;
+}
+#home{
+    width: 20vw;
+    border-radius: 5vw;
+    color: #85D1CE;
+    background-color: #0E172C;
+}
+.boton_2{
+    background: #fff;
+    color: black;
+}
+#chester{
+    background: url(../img/4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#candy{
+    background: url(../img/5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#rocky{
+    background: url(../img/6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#nene{
+    background: url(../img/7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#matilde{
+    background: url(../img/12.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#pelusa{
+    background: url(../img/9.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#kity{
+    background: url(../img/10.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bombon{
+    background: url(../img/11.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#perfil{
+    border-radius: 100%;
+    width: 20%;
+    justify-content: center;
+    text-align: center;
+}
+.text-perfil{
+    font-size: 60%;
+    border-spacing: 0;
 }
