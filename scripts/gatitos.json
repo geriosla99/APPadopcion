@@ -1,5 +1,6 @@
 [
     {
+        "id": "1",
         "nombre":"Matilde",
         "raza":"British Shorthair",
         "color":"gris",
@@ -7,6 +8,7 @@
         "personalidad":"Muy cariñoso con los niños"
     },
     {
+        "id": "2",
         "nombre":"Pelusa",
         "raza":"Birmano",
         "color":"Plateado",
@@ -14,13 +16,14 @@
         "personalidad":"Es inteligente y muy juiciosa"
     },
     {
+        "id": "3",
         "nombre":"Kity",
         "raza":"Bombay",
         "color":"Blanco",
         "edad":"2años",
         "personalidad":"Muy cariñoso"
     },
-    {
+    {   "id": "4",
         "nombre":"Bombon",
         "raza":"Gato Americano",
         "color":"Café",

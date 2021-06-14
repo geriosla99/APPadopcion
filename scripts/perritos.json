@@ -1,5 +1,6 @@
 [
-    {
+    {   
+        "id": "5",
         "nombre":"Chester",
         "raza":"Golden Retriver",
         "color":"dorado",
@@ -7,13 +8,15 @@
         "personalidad":"Muy cariñoso con los niños"
     },
     {
+        "id":"6",
         "nombre":"Candy",
         "raza":"Snawser",
         "color":"Plateado",
         "edad":"3 años",
         "personalidad":"Es inteligente y muy juiciosa"
     },
-    {
+    {   
+        "id":"7",
         "nombre":"Rocky",
         "raza":"Poodle",
         "color":"Blanco",
@@ -21,6 +24,7 @@
         "personalidad":"Muy cariñoso"
     },
     {
+        "id": "8",
         "nombre":"Nene",
         "raza":"Mezclado",
         "color":"Café",

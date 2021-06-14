@@ -99,10 +99,10 @@ body{
 }
 .text-perfil{
     font-size: 60%;
-    border-spacing: 0;
 }
 .Adopta{
     border-radius: 3vh;
-    margin: 2vw;
+    margin: 0;
     padding: 50% 0 0 0;
+    float:left;
 }

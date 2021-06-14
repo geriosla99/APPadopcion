@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adopta a un amigo</title>
-    <link rel="stylesheet" href="style/bootstrap-5.0.1-dist/css/bootstrap.css">
-    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="../style/bootstrap-5.0.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../style/main.css">
+    <title>Document</title>
 </head>
 
 <body>
@@ -18,11 +18,11 @@
                 <img src="../img/13.png" id="perfil"><br>
                 <input type="file" id="seleccionArchivos" accept="image/*">
             </div>
+            <span id="nombrePerfil">
+                <p class="text-center">Tu nombre</p>
+            </span><br>
             <span>
-                <p class="text-perfil text-center">Juan Mendez</p>
-            </span>
-            <span>
-                <p class="text-perfil text-center">Editar cuenta</p>
+                <p class="text-center">Editar cuenta</p>
             </span>
         </div>
     </div>
@@ -41,7 +41,7 @@
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
             </div>
             <div class="d-grid gap-2 col-2 mx-auto">
-                <button type="submit" class="btn Link">Guardar</button>
+                <button type="button" onclick="perfil()" class="btn Link">Guardar</button>
             </div>
         </form>
     </div>
@@ -92,7 +92,8 @@
         </div>
         <!-- Copyright -->
     </footer>
-    <script type="module" src="./scripts/script.js"></script>
+
+    <script src="./scripts/script.js"></script>
 </body>
 
 </html>
