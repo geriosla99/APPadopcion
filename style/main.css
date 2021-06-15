@@ -31,6 +31,7 @@ body{
     color: #fff;
 }
 .text{
+    font-size: 4vw;
     float: right;
 }
 #home{
@@ -91,14 +92,14 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-#perfil{
+#myImg{
     border-radius: 100%;
     width: 20%;
     justify-content: center;
     text-align: center;
 }
 .text-perfil{
-    font-size: 60%;
+    font-size: 2vw;
 }
 .Adopta{
     border-radius: 3vh;

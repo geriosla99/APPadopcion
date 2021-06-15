@@ -8,6 +8,7 @@
     <title>Adopta a un amigo</title>
     <link rel="stylesheet" href="style/bootstrap-5.0.1-dist/css/bootstrap.css">
     <link rel="stylesheet" href="style/main.css">
+    <script src="./scripts/perfil.js"></script>
 </head>
 
 <body>
@@ -15,11 +16,11 @@
         <h1>Perfil</h1>
         <div class="container">
             <div class="text-center">
-                <img src="../img/13.png" id="perfil"><br>
-                <input type="file" id="seleccionArchivos" accept="image/*">
+                <img id="myImg" src="./img/13.png"><br>
+                <input type='file' />
             </div>
             <span>
-                <p class="text-perfil text-center">Juan Mendez</p>
+                <p id="nombrePerfil" class="text-perfil text-center">Juan Mendez</p>
             </span>
             <span>
                 <p class="text-perfil text-center">Editar cuenta</p>
@@ -27,7 +28,7 @@
         </div>
     </div>
     <div class="container m-auto">
-        <form action="">
+        <form id="formulario">
             <div class="mb-3">
                 <label for="name" class="form-label">Nombre</label>
                 <input type="Name" class="form-control" id="exampleInputName" aria-describedby="nameHelp">
@@ -41,7 +42,7 @@
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
             </div>
             <div class="d-grid gap-2 col-2 mx-auto">
-                <button type="submit" class="btn Link">Guardar</button>
+                <button type="button" onclick="guardarPerfil()" class="btn Link">Guardar</button>
             </div>
         </form>
     </div>
@@ -92,7 +93,6 @@
         </div>
         <!-- Copyright -->
     </footer>
-    <script type="module" src="./scripts/script.js"></script>
 </body>
 
 </html>
