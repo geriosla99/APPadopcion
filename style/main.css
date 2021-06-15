@@ -33,6 +33,9 @@ body{
 .text{
     font-size: 4vw;
     float: right;
+    justify-content: center;
+    text-align: center;
+    margin: 1.3vw 1.5vw 0 0;
 }
 #home{
     width: 20vw;
@@ -103,7 +106,21 @@ body{
 }
 .Adopta{
     border-radius: 3vh;
-    margin: 0;
+    margin: 1vw;
     padding: 50% 0 0 0;
     float:left;
+    justify-content: center;
+    align-items: center;
+}
+.contenedorMascotas{
+    color: #000000;
+    font-size: 2vw;
+    margin: 2vw;
+    justify-content: center;
+    align-items: center;
+}
+.btnes{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
