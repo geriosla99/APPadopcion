@@ -16,8 +16,9 @@ function favoritos() {
 }
 
 function mascota() {
-    
+    var datos = [];
+    console.log("mascota en pagina");
 
-    
+
 }
 
