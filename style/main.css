@@ -36,6 +36,11 @@ body{
     justify-content: center;
     text-align: center;
     margin: 1.3vw 1.5vw 0 0;
+    text-decoration: none;
+    color: #fff;
+}
+.text:hover{
+    color: #fff;
 }
 #home{
     width: 20vw;
@@ -123,4 +128,18 @@ body{
     justify-content: center;
     text-align: center;
     align-items: center;
+}
+.textoMascota{
+    color: #000000;
+    text-decoration: none;
+}
+.textoMascota:hover{
+    color: #000000;
+}
+.infoMascota{
+    background-color: #fff;
+
+}
+.btncorazon:hover{
+    color: #ff0000;
 }
