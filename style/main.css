@@ -138,8 +138,17 @@ body{
 }
 .infoMascota{
     background-color: #fff;
-
+    padding: 2vw;
+    border-radius: 2vw;
 }
-.btncorazon:hover{
-    color: #ff0000;
+.boton{
+    background-color: #fff;
+    padding: 1vw;
+    border: 0;
+    border-radius: 100%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    float: right;
+}
+.genero{
+    align-items:"right";
 }

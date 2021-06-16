@@ -8,21 +8,40 @@
     <title>Adopta a un amigo</title>
     <link rel="stylesheet" href="../style/bootstrap-5.0.1-dist/css/bootstrap.css">
     <link rel="stylesheet" href="../style/main.css">   
+    <script src="../scripts/script.js"></script>
 </head>
 
 <body>
     <div class="container text-center">
-        <img src="../img/4.png" alt="">
+        <img class="mascota" src="../img/4.png" alt="">
     </div>
     <div class="container infoMascota">
         <div>
-            <button class="btn btncorazon">
-                <i class="bi bi-heart corazoncolor"></i>
+            <button class="boton" onclick="favoritos()">
+                <img src="../img/heart-favorite-clicked.png" alt="favoritos">
             </button>
         </div>
         <section class="container">
-            <h1>Chester</h1><img class="genero" src="../img/gender-male.png" alt="gender-male">
+            <h1 class="nombre">Chester</h1><img class="genero" src="../img/gender-male.png" alt="gender-male">
         </section>
+        <span>
+            <article class="datos">
+                <img src="../img/race.png" alt="raza"><p class="raza">Golden Retriver</p>
+            </article>
+            <article class="datos">
+                <img src="../img/age.png" alt="edad"><p>5 meses</p>
+            </article>
+        </span>
+        <span>
+            <article>
+                <img src="../img/address.png" alt="sitio"><p>Se encuentra en Quintanares</p>
+            </article>
+        </span>
+        <div>
+            <div>
+                <img src="../img/personality-player.png" alt="jugueton"><p>Jugueton</p>
+            </div>
+        </div>
     </div>
     <footer class="bg-light text-center text-white mt-5">
         <!-- Grid container -->
