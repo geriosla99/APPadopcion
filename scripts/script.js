@@ -12,13 +12,21 @@ function favoritos() {
     localStorage.setItem('mascotas',JSON.stringify(mascota));
     //console.log(localStorage);
     var favoritos = JSON.parse(localStorage.getItem('mascotas'));
-    alert('Tu mascota se a añadido a favoritos');
+    console.log(favoritos);
 }
 
-function mascota() {
-    var datos = [];
-    console.log("mascota en pagina");
-
+function mascotaFavorito() {
+     console.log("mascota en pagina");
+    // var datos = [];
 
 }
 
+// function getLocalStorageJSON(){
+//     let datosTemp = [];
+//     let datosMascota = [];
+//     let arreglosDatosMascota = [];
+//     for(i=0; i<localStorage.length;i++){
+//         datosMascota = JSON.parse(localStorage.getItem(key(i)));
+//         arreglosDatosMascota = datosMascota.
+//     }
+// }

@@ -29,5 +29,37 @@
         "color":"Café",
         "edad": "6 meses",
         "personalidad":"Es hiperactivo y muy juguetón"
+    },
+    {   
+        "id": "5",
+        "nombre":"Chester",
+        "raza":"Golden Retriver",
+        "color":"dorado",
+        "edad":"5 meses",
+        "personalidad":"Muy cariñoso con los niños"
+    },
+    {
+        "id":"6",
+        "nombre":"Candy",
+        "raza":"Snawser",
+        "color":"Plateado",
+        "edad":"3 años",
+        "personalidad":"Es inteligente y muy juiciosa"
+    },
+    {   
+        "id":"7",
+        "nombre":"Rocky",
+        "raza":"Poodle",
+        "color":"Blanco",
+        "edad":"2años",
+        "personalidad":"Muy cariñoso"
+    },
+    {
+        "id": "8",
+        "nombre":"Nene",
+        "raza":"Mezclado",
+        "color":"Café",
+        "edad": "6 meses",
+        "personalidad":"Es hiperactivo y muy juguetón"
     }
 ]

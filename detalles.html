@@ -6,14 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adopta a un amigo</title>
-    <link rel="stylesheet" href="../style/bootstrap-5.0.1-dist/css/bootstrap.css">
-    <link rel="stylesheet" href="../style/main.css">   
-    <script src="../scripts/script.js"></script>
+    <link rel="stylesheet" href="./style/bootstrap-5.0.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./style/main.css">   
+    <script src="./scripts/index.js"></script>
 </head>
 
-<body>
+<body onload="mostrarDetallesMascotas()">
     <div class="container text-center">
-        <img class="mascota" src="../img/4.png" alt="">
+        <img class="mascota" src="../img/4.png" id="imagenMascota" alt="">
     </div>
     <div class="container infoMascota">
         <div>
@@ -22,24 +22,19 @@
             </button>
         </div>
         <section class="container">
-            <h1 class="nombre">Chester</h1><img class="genero" src="../img/gender-male.png" alt="gender-male">
+            <h1 id="nombreMascota" class="nombre"></h1><img class="genero" src="../img/gender-male.png" alt="gender-male">
         </section>
         <span>
             <article class="datos">
-                <img src="../img/race.png" alt="raza"><p class="raza">Golden Retriver</p>
+                <img src="../img/race.png" alt="raza"><p id="razaMascota" class="raza"></p>
             </article>
             <article class="datos">
-                <img src="../img/age.png" alt="edad"><p>5 meses</p>
-            </article>
-        </span>
-        <span>
-            <article>
-                <img src="../img/address.png" alt="sitio"><p>Se encuentra en Quintanares</p>
+                <img src="../img/age.png" alt="edad"><p id="edadMascota"></p>
             </article>
         </span>
         <div>
             <div>
-                <img src="../img/personality-player.png" alt="jugueton"><p>Jugueton</p>
+                <img src="../img/personality-player.png" alt="jugueton"><p id="personalidadMascota"></p>
             </div>
         </div>
     </div>
@@ -49,7 +44,7 @@
             <!-- Section: Social media -->
             <section class="mb-4">
                 <!-- Facebook -->
-                <a class="btn btn-floating m-1 boton_2"  href="../gatosyperros.html" role="button"><svg
+                <a class="btn btn-floating m-1 boton_2"  href="categorias.html" role="button"><svg
                         xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                         class="bi bi-house-door" viewBox="0 0 16 16">
                         <path
@@ -57,7 +52,7 @@
                     </svg></i></a>
 
                 <!-- Twitter -->
-                <a class="btn btn-floating m-1 boton_2" id="home" href="../mensajes.html" role="button"><svg
+                <a class="btn btn-floating m-1 boton_2" id="home" href="mensajes.html" role="button"><svg
                         xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat"
                         viewBox="0 0 16 16">
                         <path
@@ -65,7 +60,7 @@
                     </svg></a>
 
                 <!-- Google -->
-                <a class="btn btn-floating m-1 boton_2" href="../favoritos.html" role="button"><svg
+                <a class="btn btn-floating m-1 boton_2" href="favoritos.html" role="button"><svg
                         xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                         class="bi bi-heart" viewBox="0 0 16 16">
                         <path
@@ -73,7 +68,7 @@
                     </svg></a>
 
                 <!-- Instagram -->
-                <a class="btn btn-floating m-1 boton_2" href="../perfil.html" role="button"><svg
+                <a class="btn btn-floating m-1 boton_2" href="perfil.html" role="button"><svg
                         xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                         class="bi bi-person" viewBox="0 0 16 16">
                         <path
