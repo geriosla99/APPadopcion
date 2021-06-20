@@ -53,49 +53,49 @@ body{
     color: black;
 }
 #Chester{
-    background: url(../img/4.png);
+    background: url(../img/chester.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #Candy{
-    background: url(../img/5.png);
+    background: url(../img/candy.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #Rocky{
-    background: url(../img/6.png);
+    background: url(../img/rocky.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #Nene{
-    background: url(../img/7.png);
+    background: url(../img/nene.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #Matilde{
-    background: url(../img/12.png);
+    background: url(../img/matilde.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #Pelusa{
-    background: url(../img/9.png);
+    background: url(../img/pelusa.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #Kity{
-    background: url(../img/10.png);
+    background: url(../img/kity.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #Bombon{
-    background: url(../img/11.png);
+    background: url(../img/bombon.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -151,4 +151,13 @@ body{
 }
 .genero{
     align-items:"right";
+}
+#espacioMascotas{
+    margin-left: 12.3vw;
+}
+.mascota{
+    width: 50vw;
+}
+.mascotaFav{
+    width: 25vw;
 }
