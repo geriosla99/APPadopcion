@@ -204,23 +204,24 @@ function favoritos() {
     var favoritos = JSON.parse(localStorage.getItem('mascotas'));
     console.log(favoritos);
 
-    const row = document.createElement('div');
-    row.innerHTML +=`
-    <div class="row container categoria-mascotas">
-        <div class="col-5 Adopta">
-            <div class="contenedorMascotas">
-                <img src="${favoritos.img}" id="${favoritos.nombre}" class="mascotaFav" alt="">
-                <h3 id="nombreMascota" >${favoritos.nombre}</h3>
-                <p id="razaMascota">${favoritos.raza}</p>
+        const row = document.createElement('div');
+        row.innerHTML +=`
+        <div class="row container categoria-mascotas">
+            <div class="col-5 Adopta">
+                <div class="contenedorMascotas">
+                    <img src="${favoritos.img}" id="${favoritos.nombre}" class="mascotaFav" alt="">
+                    <h3 id="nombreMascota" >${favoritos.nombre}</h3>
+                    <p id="razaMascota">${favoritos.raza}</p>
+                </div>
             </div>
         </div>
-    </div>
-    `
-    console.log(row);
+        `
+        console.log(row);
+    
+        const espacioFavoritos = document.querySelector('.container');
+    
+        espacioFavoritos.appendChild(row); 
 
-    const espacioFavoritos = document.querySelector('.container');
-
-    espacioFavoritos.appendChild(row);
 
 }
 

@@ -10,14 +10,16 @@
     <link rel="stylesheet" href="style/main.css">   
 </head>
 
-<body>
-
+<body onclick="chat()">
     <div class="container">
         <h1>Mensajes</h1>
         <div class="content-mensaje">
-            
+            <div class="chatUsuario">
+                <img class="imgBuzon" src="./img/mariobro.png" alt="">
+                <h3 class="nombreUsuario">José</h3>
+            </div>
             <input type="text" class="form-control mensajes" id="exampleInputText" placeholder="Ecribe aquí...">
-            <button type="submit" class="btn btn-primary botonMensaje">Submit</button>
+            <button type="submit" class="btn btn-primary botonMensaje">Enviar</button>
         </div>
     </div>
 
@@ -68,6 +70,7 @@
         </div>
         <!-- Copyright -->
     </footer>
+    <script src="./scripts/mensajes.js"></script>
 </body>
 
 </html>

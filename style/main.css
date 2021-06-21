@@ -180,17 +180,22 @@ body{
     margin-left: 7vw;
 }
 .content{
-    margin-bottom: 15vw;
+    margin-bottom: 20vw;
     margin-top: 4vw;
 }
 .content-mensaje{
     margin-top: 4vw;
-    margin-bottom: 10vw;
-    padding-top: 30vw;
+    margin-bottom: 15vw;
 }
 .botonMensaje{
     float: left;
 }
 .mensajes{
     float: right;
+}
+.chatUsuario{
+    margin-bottom: 30vw;
+}
+footer{
+    width: 100%;
 }
