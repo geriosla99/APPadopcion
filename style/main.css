@@ -161,3 +161,36 @@ body{
 .mascotaFav{
     width: 25vw;
 }
+.buzon{
+    background-color: aliceblue;
+    border-radius: 1vw;
+    padding: 1%;
+    margin: 1vw 0 1vw 0;
+    
+}
+.imgBuzon{
+    width: 5vw;
+    border-radius: 50%;
+    float: left;
+}
+.nombreUsuario{
+    margin-left: 7vw;
+}
+.textoMensaje{
+    margin-left: 7vw;
+}
+.content{
+    margin-bottom: 15vw;
+    margin-top: 4vw;
+}
+.content-mensaje{
+    margin-top: 4vw;
+    margin-bottom: 10vw;
+    padding-top: 30vw;
+}
+.botonMensaje{
+    float: left;
+}
+.mensajes{
+    float: right;
+}

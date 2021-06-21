@@ -205,7 +205,7 @@ function favoritos() {
     console.log(favoritos);
 
     const row = document.createElement('div');
-    row.innerHTML =`
+    row.innerHTML +=`
     <div class="row container categoria-mascotas">
         <div class="col-5 Adopta">
             <div class="contenedorMascotas">
